@@ -1,0 +1,18 @@
+torch==2.0.1
+torchaudio==2.0.2
+torchvision==0.15.2
+Pillow==9.5.0
+opencv-python==4.7.0.72
+numpy==1.21.0
+matplotlib
+scipy
+urllib3==1.26.6 
+gdown==4.7.1
+
+pycocotools==2.0.6
+git+https://github.com/cocodataset/panopticapi.git
+git+https://github.com/facebookresearch/detectron2.git
+
+git+https://github.com/facebookresearch/pytorch3d.git@stable
+
+-e .
