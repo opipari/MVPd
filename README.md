@@ -142,7 +142,7 @@ wget -P ./simulators/blender/ https://mirrors.ocf.berkeley.edu/blender/release/B
   tar -xf ./simulators/blender/blender-3.3.7-linux-x64.tar.xz -C ./simulators/blender/ && \
     rm ./simulators/blender/blender-3.3.7-linux-x64.tar.xz && \
       ./simulators/blender/blender-3.3.7-linux-x64/3.3/python/bin/python3.10 -m ensurepip && \
-        ./simulators/blender/blender-3.3.7-linux-x64/3.3/python/bin/python3.10 -m pip install -r ./envs/requirements/blender.txt
+        ./simulators/blender/blender-3.3.7-linux-x64/3.3/python/bin/python3.10 -m pip install -r ./requirements/blender.txt
 ```
 
 #### Habitat-Sim
