@@ -17,7 +17,7 @@ git clone -b main --recurse-submodules git@github.com:opipari/MVPd.git
 
 #### Downloading Dataset
 
-All MVPd data can be downloaded from the following [dropbox link](https://www.dropbox.com/scl/fo/684rsez9g9z7jwsy3dy3g/AMkJr5h1DyPJt6tZpY1vxDo?rlkey=h46o93asvsd5eexpwc5iwelwq&e=1&st=381rd84e&dl=0).
+All MVPd data can be downloaded from the following [dropbox link](https://www.dropbox.com/scl/fo/684rsez9g9z7jwsy3dy3g/AMkJr5h1DyPJt6tZpY1vxDo?rlkey=h46o93asvsd5eexpwc5iwelwq&e=1&st=381rd84e&dl=0). By downloading the MVPd dataset, you must agree to the terms and conditions specified in the [Matterport End User License Agreement for Academic Use of Model Data](https://matterport.com/legal/matterport-end-user-license-agreement-academic-use-model-data).
 
 The MVPd dataset is split into `train/val/test` subsets at the scene-level. Each scene's color, depth, and panoptic videos are compressed into individual tar files and stored in their respective split folder at the above dropbox location. In other words, there is a separate tar file for the videos and segment labels of each scene.
 
